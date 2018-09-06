@@ -1,0 +1,18 @@
+Options -Indexes
+<FilesMatch "(^#.*#|\.(exe)|~)$">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</FilesMatch>
+<files engine.php>
+order allow,deny
+deny from all
+</files>
+<files engine.php>
+order allow,deny
+deny from all
+</files>
+<files arial.ttf>
+order allow,deny
+deny from all
+</files>
